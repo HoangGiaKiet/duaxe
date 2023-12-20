@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Car </title>
+    <link rel="stylesheet" href="./car.css">
+</head>
+<body>
+    <div class="container">
+        <div class="batdau">
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="green"></div>
+            <button onclick="start()">Bắt đầu</button>
+        </div>
+        <div class="xang">
+            Xăng xe 1<div id="xang1"></div>
+            Xăng xe 2<div id="xang2"></div>
+        </div>
+
+        <div class="street">
+            <div id="car_1" class="car_runing">
+                <img src="./image/car_1.png" alt="" width="330px">
+            </div>
+            <div id="car_2" class="car_runing">
+                <img src="./image/car_2.png" alt="" width="280px" style="padding-left: 30px;">
+            </div>
+            <div class="end"></div>
+        </div>
+        <div class="btn">
+            <button onclick="repeat()">Bắt đầu lại</button>
+        </div>
+    </div>
+    <p id="log"></p>
+    <script src="./car.js"></script>
+</body>
+</html>
